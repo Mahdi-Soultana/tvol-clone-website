@@ -226,6 +226,7 @@ nav .nav_center .mobile_nav {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
+  margin: 0.5rem auto;
   width: 90%;
 }
 
