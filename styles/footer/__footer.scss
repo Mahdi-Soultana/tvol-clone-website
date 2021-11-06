@@ -1,0 +1,50 @@
+footer {
+    background: #333;
+    color     : white;
+    padding   : 3rem 1rem;
+
+    >.container {
+        width    : 90%;
+        max-width: 900px;
+        margin   : 0 auto;
+    }
+
+    section {
+        padding-top          : 5rem;
+        display              : grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+        justify-content      : space-between;
+        margin-bottom        : 24vh;
+
+        ul a {
+            display    : inline-block;
+            font-size  : 1.5rem;
+            font-weight: 300;
+            padding    : 1rem;
+            color      : rgb(204, 204, 204);
+
+            &.title {
+                color      : rgb(255, 255, 255);
+                font-size  : 1.7rem;
+                font-weight: 400;
+                font-family: 'Domine',
+                    serif;
+            }
+        }
+    }
+
+    .end_footer {
+        font-family: 'Domine',
+            serif;
+        margin-bottom: 10vh;
+        position     : relative;
+
+        .logo {
+            position : absolute;
+            bottom   : 1rem;
+            left     : 50%;
+            font-size: 4rem;
+            transform: translateX(-50%);
+        }
+    }
+}
